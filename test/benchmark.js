@@ -1,6 +1,4 @@
-require('babel-register');
-
-var express = require('express');
+import * as express from 'express';
 var graphqlHTTP = require('express-graphql');
 var schema = require('./benchmark/schema').schema;
 var app = express();
